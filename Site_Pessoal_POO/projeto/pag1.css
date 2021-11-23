@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    max-width: 1920px;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 2rem;
+    color: rgb(0, 0, 0);
+    background-image: url(https://instintoviajante.com/wp-content/uploads/2015/04/5-parnaioca-ilha-grande-rj.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 115vh;
+}
+
+.conteudo{
+
+    max-width: 1040px;
+    max-height: 740px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.375);
+    box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.1);
+    border-radius: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+      
+}
+table{
+    width: 100%;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+th{
+    color:rgb(44, 44, 46)
+}
+.btns {
+    width: 100%;
+    max-width: 30rem;
+    display: flex;
+    margin-top: 40px;
+
+}
+
+.btns {
+    width: 100%;
+    max-width: 30rem;
+    display: flex;
+    margin-top: 40px;
+
+}
+
+.btn {
+    width: 50%;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.875rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 0.5rem;
+    transition: transform 150ms ease;
+  }
+  
+  .btn:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  
+  .btn--transparent {
+        background: transparent;
+        color: black;
+        border: 2px solid black;
+        border-width: 2px;
+        margin-right: 0.75rem;
+    }
+
+
+    a {
+        text-decoration: none;
+        color: black;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  
